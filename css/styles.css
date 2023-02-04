@@ -76,6 +76,12 @@ a {
   color: #fff;
   border: none;
 }
+.main-section button:hover,
+.main-section button:focus {
+  color: #fff;
+  background-color: var(--active-state);
+  outline: none;
+}
 /* section-2 */
 .about-section h3 {
   color: var(--primary-dark);
