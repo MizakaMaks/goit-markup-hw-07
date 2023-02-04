@@ -8,7 +8,7 @@
   --primary-font-size: 16px;
 }
 body {
-  font-family: Roboto;
+  font-family: "Roboto", "Raleway";
   color: var(--primary-text);
   font-size: var(--primary-font-size);
   line-height: 1.5;
@@ -24,7 +24,7 @@ a {
 
 .logo {
   color: var(--primary-dark);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -75,6 +75,7 @@ a {
   background-color: var(--brand-color);
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .main-section button:hover,
 .main-section button:focus {
@@ -139,6 +140,7 @@ a {
   border: none;
   color: var(--brand-color);
   font-weight: 500;
+  cursor: pointer;
 }
 .portfolio-list h2 {
   color: var(--primary-dark);
