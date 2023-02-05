@@ -8,7 +8,7 @@
   --primary-font-size: 16px;
 }
 body {
-  font-family: "Roboto", "Raleway";
+  font-family: "Roboto", "sans-serif";
   color: var(--primary-text);
   font-size: var(--primary-font-size);
   line-height: 1.5;
@@ -24,7 +24,7 @@ a {
 
 .logo {
   color: var(--primary-dark);
-  font-family: "Raleway";
+  font-family: "Raleway", "sans-serif";
   font-weight: 800;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -38,10 +38,10 @@ a {
   font-weight: 500;
   font-size: var(--primary-font-size);
 }
-.navigation-list a:hover,
-.contacts-list a:hover,
-.navigation-list a:focus,
-.contacts-list a:focus {
+.navigation-list-link:hover,
+.contacts-list-link:hover,
+.navigation-list-link:focus,
+.contacts-list-link:focus {
   color: var(--active-state);
   outline: none;
 }
@@ -50,12 +50,13 @@ a {
 }
 .contacts-list {
   font-size: var(--primary-font-size);
+  font-style: normal;
 }
-.navigation-list a {
+.navigation-list-link {
   color: var(--primary-dark);
 }
 
-.contacts-list a {
+.contacts-list-link {
   color: var(--primary-text);
 }
 /* main */
@@ -67,7 +68,6 @@ a {
 .main-section-heading {
   text-align: center;
   color: #fff;
-  font-weight: 700;
   line-height: 1.07;
   font-size: 56px;
 }
@@ -76,24 +76,24 @@ a {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
-.main-section button:hover,
-.main-section button:focus {
+.main-section-button:hover:hover,
+.main-section-button:focus:focus {
   color: #fff;
   background-color: var(--active-state);
   outline: none;
 }
 /* section-2 */
-.about-section h3 {
+.about-section-heading {
   color: var(--primary-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 /* section-3 */
-.specification-section h2 {
+.specification-section-heading {
   color: var(--primary-dark);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -104,14 +104,13 @@ a {
 .workers-section {
   background-color: var(--background-light);
 }
-.workers-section h2 {
+.workers-section-heading {
   color: var(--primary-dark);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
-.workers-section h3 {
+.workers-section-item-heading {
   color: var(--primary-dark);
   font-weight: 500;
   font-size: 20px;
@@ -130,28 +129,32 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-container p {
+.footer-paragraf {
   color: var(--secondary-buttons);
 }
 
 /* page-2 */
-.buttons-list-portfolio button {
+.buttons-list-item {
   background-color: var(--background-light);
   border: none;
   color: var(--brand-color);
   font-weight: 500;
   cursor: pointer;
+  font-family: inherit;
 }
-.portfolio-list h2 {
+.portfolio-heading {
   color: var(--primary-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.buttons-list-portfolio button:hover,
-.buttons-list-portfolio button:focus {
+.buttons-list-item:hover,
+.buttons-list-item:focus {
   color: #fff;
   background-color: var(--active-state);
   outline: none;
+}
+.hiden-name {
+  display: none;
 }
