@@ -20,6 +20,15 @@ ul {
 a {
   text-decoration: none;
 }
+p, h1, h2, h3, h4, h5, h6, ul {
+  margin-top: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1154px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* header */
 
 .logo {
