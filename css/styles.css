@@ -103,12 +103,9 @@ ul {
 /* section-1 */
 .main-section {
   background-color: var(--primary-dark);
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  padding-top:188px ;
+  padding-bottom: 188px;
 }
 .main-section-heading {
   text-align: center;
@@ -164,26 +161,26 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /* section-4 */
 
 .workers-section {
   background-color: var(--background-light);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .workers-section-heading {
   color: var(--primary-dark);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  padding-top: 120px;
 }
 .workers-section-list {
   display: flex;
-  padding-top: 72px;
+  margin-top: 72px;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .workers-section-item-heading {
   color: var(--primary-dark);
@@ -235,7 +232,6 @@ ul {
   display: flex; 
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .buttons-list-item {
@@ -285,6 +281,7 @@ border-radius: 4px;
 }
 .portfolio {
   padding-bottom: 120px;
+  padding-top: 96px;
 }
 .portfolio-subtitle{
   color: var(--primary-text);
