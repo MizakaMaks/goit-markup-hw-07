@@ -39,12 +39,14 @@ ul {
   padding: 0 15px;
 }
 /* header */
+.header{
+  border-bottom: 1px solid var(--secondary-buttons);
+}
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
-  border-bottom: 1px solid var(--secondary-buttons);
+  
 }
 
 .logo {
@@ -93,6 +95,7 @@ ul {
   color: var(--primary-dark);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .contacts-list-link {
@@ -151,10 +154,12 @@ ul {
   margin-bottom: 8px;
 }
 /* section-3 */
+.specification-section{
+  padding-bottom: 120px;
+}
 .specification-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .specification-section-heading {
   color: var(--primary-dark);
@@ -187,6 +192,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .workers-list-item {
   background-color: #fff;
@@ -208,11 +214,10 @@ ul {
 /* footer */
 .footer-container {
   background-color: var(--primary-dark);
-}
-.footer-wraper{
-  padding-top: 100px;
+  padding-top: 100px; 
   padding-bottom: 100px;
 }
+
 .logo-footer {
   color: var(--background-light);
   font-family: Raleway;
@@ -270,15 +275,12 @@ border-radius: 4px;
 }
 .portfolio-item-text-container{
   padding-top: 32px;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
   padding-left: 16px;
   border: 1px solid var(--secondary-buttons);
   border-top: none;
-  height: 120px;
 }
-.portfolio-list-item{
-  width: 360px;
-}
+
 .portfolio {
   padding-bottom: 120px;
   padding-top: 96px;
