@@ -1,2 +1,2 @@
-https://github.com/MizakaMaks/goit-markup-hw-04.git
+https://mizakamaks.github.io/goit-markup-hw-04/
 # goit-markup-hw-04
